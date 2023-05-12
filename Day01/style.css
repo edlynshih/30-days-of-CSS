@@ -64,21 +64,21 @@ body {
 }
 
 .ul-icons li:nth-child(1) span {
-  background-color: #0077B5;
+  background-color: #0072b1;
 }
 
 .ul-icons li:nth-child(2) span {
-  background-color: #25D366;
+  background-color: #28D146;
 }
 
 .ul-icons li:nth-child(3) span {
-  background-color: #3B5999;
+  background-color: #3b5998;
 }
 
 .ul-icons li:nth-child(4) span {
-  background-color: #55ACEE;
+  background-color: #26a7de;
 }
 
 .ul-icons li:nth-child(5) span {
-  background-image: linear-gradient(to top, #FED975 , #FA7F1E, #D72976, #9630BE, #4F5CD5);
+  background-image: linear-gradient(to top, #FEDA75 , #FA7E1E, #D62976, #962FBF, #4F5CD5);
 }
