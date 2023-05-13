@@ -7,4 +7,8 @@
 
 .spinner {
   position: absolute;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+  box-shadow: 3px 6px 2px #d7bfdc;
 }
