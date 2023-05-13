@@ -10,11 +10,22 @@
   height: 220px;
   width: 220px;
   border-radius: 50%;
-  box-shadow: 3px 6px 2px #d7bfdc;
+  box-shadow: 3px 6px 1px #d7bfdc;
+  animation: run 1s linear infinite;
 }
 
 .text {
   font-family:"Gill Sans", sans-serif ;
   font-size: 1.5em;
   color: #d7bfdc;
+}
+
+@keyframes run {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
 }
