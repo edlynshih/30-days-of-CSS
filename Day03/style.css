@@ -7,23 +7,34 @@ body {
 
 .left-container {
   background: linear-gradient(to right, #FF9AA2,#FFB7B2, #FFDAC1,#E2F0CB);
+  flex: 1;
+  position:relative;
+}
+
+.left-container .text {
+  color: white;
+  left: 100%;
 }
 
 .right-container {
   background: linear-gradient(to right, #E2F0CB, #B5EAD7, #C7CEEA,#BDB2FF);
+  flex: 1;
+  overflow: hidden;
+  position: relative;
 }
 
 .text {
   margin-top: 50%;
   white-space: nowrap;
+  position: absolute;
   animation: slide 15s linear infinite;
 }
 
 @keyframes slide{
   from {
-    transform: translatex(20%);
+    transform: translatex(30%);
   }
   to {
-    transform: translatex(-120%);
+    transform: translatex(-130%);
   }
 }
