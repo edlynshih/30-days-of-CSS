@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+}
+
+button {
+  font-family:"Gill Sans", sans-serif ;
+  color: navy;
+  background: white;
+  font-size: 4em;
+  border-radius: 10px;
+}
+
+button:hover:before {
+  color:white;
+  background: navy;
+  content: 'By Edlyn Shih'
+}
