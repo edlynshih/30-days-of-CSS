@@ -12,7 +12,8 @@ body {
 }
 
 .left-container .text {
-  color: white;
+  color: transparent;
+  color: #1D1C1A;
   left: 100%;
 }
 
@@ -27,14 +28,17 @@ body {
   margin-top: 50%;
   white-space: nowrap;
   position: absolute;
-  animation: slide 15s linear infinite;
+  font-family:"Gill Sans", sans-serif ;
+  font-size: 6em;
+  animation: slide 20s linear infinite;
+  color: white;
 }
 
 @keyframes slide{
   from {
-    transform: translatex(30%);
+    transform: translatex(20%);
   }
   to {
-    transform: translatex(-130%);
+    transform: translatex(-120%);
   }
 }
