@@ -21,9 +21,21 @@ button {
 button::before, button::after {
   height: 4px;
   width: 20px;
-  color: black;
-  transition: 0.4s linear;
+  background-color: black;
+  transition: .10s linear;
+  content: "";
+  transform: skewx(50deg);
   position: absolute;
+}
+
+button::before {
+  top: -4px;
+  left:5%;
+}
+
+button::after {
+  bottom: -4px;
+  right: 5%;
 }
 
 button:hover .text {
