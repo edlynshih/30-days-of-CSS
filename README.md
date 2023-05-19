@@ -12,3 +12,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day03 - Sliding Text
 <img alt="day03" title="day03" src="./Day03/Day03.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day03" target="_blank">Click here to view my code.</a>
+
+## Day04 - Button with Hover Effect
+<img alt="day04" title="day04" src="./Day04/Day04.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day04" target="_blank">Click here to view my code.</a>
