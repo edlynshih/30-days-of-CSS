@@ -38,6 +38,10 @@ button::after {
   right: 5%;
 }
 
+.hover-text{
+  display: none;
+}
+
 button:hover::before{
   left: 80%;
 }
@@ -50,10 +54,10 @@ button:hover .text {
   display: none;
 }
 
-.hover-text{
-  display: none;
-}
-
 button:hover .hover-text {
   display:inline;
+}
+
+button:hover {
+  background-color: transparent;
 }
