@@ -38,6 +38,14 @@ button::after {
   right: 5%;
 }
 
+button:hover::before{
+  left: 80%;
+}
+
+button:hover::after{
+  right: 80%;
+}
+
 button:hover .text {
   display: none;
 }
