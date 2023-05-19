@@ -8,24 +8,32 @@ body {
 
 button {
   font-family:"Gill Sans", sans-serif ;
-  color: navy;
-  background: white;
-  font-size: 4em;
+  color: white;
+  background: navy;
+  font-size: 1.5em;
   border-radius: 10px;
-  padding: 0.4em;
-  margin: 0;
-  border: 4px solid aqua;
+  height: 100px;
+  width: 300px;
+  border: 4px solid white;
+  position: relative;
 }
 
-button:hover span {
+button::before, button::after {
+  height: 4px;
+  width: 20px;
+  color: black;
+  transition: 0.4s linear;
+  position: absolute;
+}
+
+button:hover .text {
   display: none;
 }
 
-button:hover:before {
-  padding: 0;
-  margin: 0;
-  color:white;
-  background-color: black;
-  content: '#30DaysOfCSS By Edlyn Shih';
-  white-space: nowrap; 
+.hover-text{
+  display: none;
+}
+
+button:hover .hover-text {
+  display:inline;
 }
