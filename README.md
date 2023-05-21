@@ -16,3 +16,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day04 - Button with Hover Effect
 <img alt="day04" title="day04" src="./Day04/Day04.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day04" target="_blank">Click here to view my code.</a>
+
+## Day05 - Pulsing Effect
+<img alt="day05" title="day05" src="./Day05/Day05.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day05" target="_blank">Click here to view my code.</a>
