@@ -4,3 +4,15 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+button {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: navy;
+  color: white;
+  font-size: 2em;
+  -webkit-text-stroke: 1px;
+  -webkit-text-fill-color: transparent;
+}
