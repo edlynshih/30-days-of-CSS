@@ -3,16 +3,32 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: black;
 }
 
 button {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   border-style: none;
   background-color: navy;
   color: white;
   font-size: 2em;
-  -webkit-text-stroke: 1px;
-  -webkit-text-fill-color: transparent;
+  animation: pulse 3s infinite;
+  font-family:"Gill Sans", sans-serif ;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 navy;
+    transform: scale(0.9);
+  }
+  50% {
+    box-shadow: 0 0 0px 80px transparent;
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 0 0 20px 80px transparent;
+    transform: scale(0.9);
+  }
 }
