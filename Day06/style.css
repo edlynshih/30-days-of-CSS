@@ -1,0 +1,20 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  /* animation: text 3s steps(20, end) infinite; */
+  margin-left: 1em;
+  -webkit-text-stroke: 1px;
+  -webkit-text-fill-color: transparent;
+  font-family:"Gill Sans", sans-serif ;
+  font-size: 3em;
+}
+
+@keyframes text {
+  from {width: 100%;}
+  to {width: 0%;}
+}
