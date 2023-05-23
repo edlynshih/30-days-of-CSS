@@ -24,3 +24,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day06 - Text Animation
 <img alt="day06" title="day06" src="./Day06/Day06.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day06" target="_blank">Click here to view my code.</a>
+
+## Day06 - Preloader Animation
+<img alt="day07" title="day07" src="./Day07/Day07.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day07" target="_blank">Click here to view my code.</a>
