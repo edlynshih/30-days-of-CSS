@@ -6,6 +6,17 @@ body{
   justify-content: center;
 }
 
+.circle {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
 span{
   background-color: white;
   position: relative;
