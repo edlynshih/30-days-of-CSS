@@ -20,3 +20,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day05 - Pulsing Effect
 <img alt="day05" title="day05" src="./Day05/Day05.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day05" target="_blank">Click here to view my code.</a>
+
+## Day06 - Text Animation
+<img alt="day06" title="day06" src="./Day06/Day06.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day06" target="_blank">Click here to view my code.</a>
