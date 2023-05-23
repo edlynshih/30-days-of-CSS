@@ -36,6 +36,10 @@ span{
   animation: inner-rotate 1.5s linear infinite;
 }
 
+.circle span:nth-child(3) {
+  animation: reverse-inner-rotate 1.5s linear infinite;
+}
+
 @keyframes rotate {
   0% {
       transform: rotate(0deg) translateX(300px) translateY(-50px) rotate(0deg) scale(1.5);
@@ -52,6 +56,18 @@ span{
   0% {
       transform: rotate(0deg) translateX(100px) translateY(-10px) rotate(0deg) scale(1.5);
       background-color: orange;
+  }
+
+  95% {
+      transform: rotate(-180deg) translateX(0px) rotate(-180deg);
+      background-color: navy;
+  }
+}
+
+@keyframes reverse-inner-rotate {
+  0% {
+      transform: rotate(0deg) translateX(-100px) translateY(10px) rotate(0deg) scale(1.5);
+      background-color: yellow;
   }
 
   95% {
