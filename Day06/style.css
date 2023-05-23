@@ -3,18 +3,31 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
 }
 
 div{
-  /* animation: text 3s steps(20, end) infinite; */
+  animation: fill 10s infinite;
   margin-left: 1em;
-  -webkit-text-stroke: 1px;
-  -webkit-text-fill-color: transparent;
   font-family:"Gill Sans", sans-serif ;
-  font-size: 3em;
+  font-size: 2em;
+  white-space: nowrap;
 }
 
-@keyframes text {
-  from {width: 100%;}
-  to {width: 0%;}
+@keyframes fill {
+  20% {
+    color: lightblue;
+  }
+  40% {
+    color: blue;
+  }
+  60% {
+    color: navy;
+  }
+  80% {
+    color: navy;
+  }
+  100% {
+    color: black;
+  }
 }
