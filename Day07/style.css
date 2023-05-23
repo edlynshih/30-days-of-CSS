@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span{
+  background-color: white;
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 1em;
+  border-radius: 50%;
+}
