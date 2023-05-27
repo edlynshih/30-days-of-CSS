@@ -3,4 +3,27 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-color: black;
+}
+
+.heart {
+  height: 100px;
+  width: 100px;
+  animation: beating linear 1.5s infinite;
+  background-color: red;
+}
+
+@keyframes beating {
+  0% {
+    transform: scale(1);
+  }
+  25%{
+    transform: scale(1.5);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  75% {
+    transform: scale(1.5);
+  }
 }
