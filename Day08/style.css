@@ -10,7 +10,7 @@ body {
   height: 100px;
   width: 100px;
   animation: beating linear 1.5s infinite;
-  background-color: navy;
+  background-color: lightblue;
   transform: rotate(45deg);
   position: relative;
 }
@@ -19,7 +19,7 @@ body {
   content: '';
   height: 100%;
   width: 100%;
-  background-color: navy;
+  background-color: lightblue;
   position: absolute;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -29,7 +29,7 @@ body {
   content: '';
   height: 100%;
   width: 100%;
-  background-color: navy;
+  background-color: lightblue;
   position: absolute;
   transform: translateX(-50%);
   border-radius: 50%;
