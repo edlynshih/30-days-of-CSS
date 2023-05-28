@@ -32,3 +32,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day08 - Beating Heart Animation
 <img alt="day08" title="day08" src="./Day08/Day08.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day08" target="_blank">Click here to view my code.</a>
+
+## Day09 - Newton's Cradle Animation
+<img alt="day09" title="day09" src="./Day09/Day09.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day09" target="_blank">Click here to view my code.</a>
