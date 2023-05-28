@@ -16,7 +16,7 @@ h1 {
 
 span::before {
   content: '';
-  animation: flash 5s linear infinite alternate;
+  animation: flash 8s linear infinite;
   position: absolute;
   margin-left: 0.2em;
 }
