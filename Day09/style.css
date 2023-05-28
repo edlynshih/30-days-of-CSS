@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+}
+
+.bar {
+  background-color: white;
+  height: 5px;
+  width: 250px;
+  position: relative;
+  top: -100px;
+}
