@@ -11,11 +11,12 @@ body {
 }
 
 .bar {
-  background-color: white;
-  height: 5px;
+  background-color: lightblue;
+  height: 10px;
   width: 250px;
   position: relative;
   top: -100px;
+  border-radius: 8px;
 }
 
 .balls {
@@ -27,7 +28,7 @@ body {
 }
 
 .ball {
-  background-color: white;
+  background-color: lightblue;
   height: 50px;
   width: 50px;
   border-radius: 50%;
@@ -37,19 +38,19 @@ body {
   content: '';
   position: absolute;
   height: 200px;
-  width: 1px;
-  background-color: white;
+  width: 2px;
+  background-color: lightblue;
   top: -200px;
   margin-left: 25px;
 }
 
 .ball-start {
-  transform-origin: 30% -200px;
+  transform-origin: 50% -200px;
   animation: start 0.8s infinite alternate;
 }
 
 .ball-end {
-  transform-origin: 30% -200px;
+  transform-origin: 50% -200px;
   animation: end 0.8s infinite 0.8s alternate;
 }
 
