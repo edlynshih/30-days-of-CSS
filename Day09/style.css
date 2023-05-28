@@ -17,3 +17,18 @@ body {
   position: relative;
   top: -100px;
 }
+
+.balls {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+}
+
+.ball {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
