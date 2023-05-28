@@ -31,6 +31,7 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  transform-origin: 50% -200px;
 }
 
 .ball::before {
@@ -41,4 +42,17 @@ body {
   background-color: white;
   top: -200px;
   margin-left: 25px;
+}
+
+.ball-start {
+  animation: start 0.8s infinite alternate;
+}
+
+@keyframes start {
+  0%, 50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
 }
