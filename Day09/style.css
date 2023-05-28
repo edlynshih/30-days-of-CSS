@@ -32,3 +32,13 @@ body {
   width: 50px;
   border-radius: 50%;
 }
+
+.ball::before {
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 1px;
+  background-color: white;
+  top: -200px;
+  margin-left: 25px;
+}
