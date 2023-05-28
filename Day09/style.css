@@ -48,11 +48,25 @@ body {
   animation: start 0.8s infinite alternate;
 }
 
+.ball-end {
+  transform-origin: 30% -200px;
+  animation: end 0.8s infinite 0.8s alternate;
+}
+
 @keyframes start {
   0%, 50% {
     transform: rotate(0);
   }
   100% {
     transform: rotate(30deg);
+  }
+}
+
+@keyframes end {
+  0%, 50% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-30deg);
   }
 }
