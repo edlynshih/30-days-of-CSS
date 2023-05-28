@@ -50,7 +50,7 @@ body {
 }
 
 .ball-end {
-  transform-origin: 50% -200px;
+  transform-origin: 60% -200px;
   animation: end 0.8s infinite 0.8s alternate;
 }
 
