@@ -31,7 +31,6 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  transform-origin: 50% -200px;
 }
 
 .ball::before {
@@ -45,6 +44,7 @@ body {
 }
 
 .ball-start {
+  transform-origin: 30% -200px;
   animation: start 0.8s infinite alternate;
 }
 
