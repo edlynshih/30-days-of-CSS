@@ -14,4 +14,26 @@ button {
   font-family:"Gill Sans", sans-serif ;
   color: navy;
   border-radius: 8px;
+  position: relative;
+}
+
+button:hover {
+  animation: fill 5s;
+  cursor: pointer;
+}
+
+button::after {
+  background-color: navy;
+  color: white;
+}
+
+@keyframes fill {
+  0%{
+    background-color: white;
+    color: navy;
+  }
+  100% {
+    background-color: navy;
+    color: white;
+  }
 }
