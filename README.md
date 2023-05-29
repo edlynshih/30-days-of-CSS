@@ -37,6 +37,6 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 <img alt="day09" title="day09" src="./Day09/Day09.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day09" target="_blank">Click here to view my code.</a>
 
-## Day09 - Flashing Text Animation
+## Day10 - Flashing Text Animation
 <img alt="day10" title="day10" src="./Day10/Day10.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day10" target="_blank">Click here to view my code.</a>
