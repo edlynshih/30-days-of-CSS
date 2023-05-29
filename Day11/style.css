@@ -6,7 +6,7 @@ body {
 }
 
 button {
-  background-color: white;
+  background: transparent;
   border: navy 2px solid;
   height: 100px;
   width: 300px;
@@ -15,25 +15,27 @@ button {
   color: navy;
   border-radius: 8px;
   position: relative;
+  overflow: hidden;
 }
 
 button:hover {
-  animation: fill 5s;
   cursor: pointer;
-}
-
-button::after {
-  background-color: navy;
   color: white;
 }
 
-@keyframes fill {
-  0%{
-    background-color: white;
-    color: navy;
-  }
-  100% {
-    background-color: navy;
-    color: white;
-  }
+button::before {
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background: navy;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+
+button:hover::before{
+  height: 180%;
 }
