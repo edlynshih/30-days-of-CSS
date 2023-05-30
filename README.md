@@ -44,3 +44,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day11 - Button with Hover Fill Effect
 <img alt="day11" title="day11" src="./Day11/Day11.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day11" target="_blank">Click here to view my code.</a>
+
+## Day12 - Fill effect when hovering
+<img alt="day12" title="day12" src="./Day12/Day12.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day12" target="_blank">Click here to view my code.</a>
