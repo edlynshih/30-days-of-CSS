@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: lightblue;
+  font-weight: bold;
+  font-family:"Gill Sans", sans-serif ;
+  font-size: 4em;
+  position: relative;
+}
+
+h1::before {
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  color: navy;
+  overflow: hidden;
+  transition: 1s;
+}
+
+h1:hover::before {
+  width:100%;
+}
+
