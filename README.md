@@ -40,3 +40,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day10 - Flashing Text Animation
 <img alt="day10" title="day10" src="./Day10/Day10.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day10" target="_blank">Click here to view my code.</a>
+
+## Day11 - Button with Hover Fill Effect
+<img alt="day11" title="day11" src="./Day11/Day11.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day11" target="_blank">Click here to view my code.</a>
