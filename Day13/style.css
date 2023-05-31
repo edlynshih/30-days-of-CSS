@@ -7,4 +7,6 @@ div {
 
 span {
   text-transform: uppercase;
+  font-family:"Gill Sans", sans-serif;
+  font-size: 4em;
 }
