@@ -9,4 +9,14 @@ span {
   text-transform: uppercase;
   font-family:"Gill Sans", sans-serif;
   font-size: 4em;
+  animation: move 5s linear infinite
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100px);
+  }
 }
