@@ -9,7 +9,19 @@ span {
   text-transform: uppercase;
   font-family:"Gill Sans", sans-serif;
   font-size: 4em;
-  animation: move 5s linear infinite
+  animation: move 3s linear infinite
+}
+
+span:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+span:nth-child(6) {
+  animation-delay: 0.2s;
+}
+
+span:nth-child(5) {
+  animation-delay: 0.3s;
 }
 
 @keyframes move {
@@ -17,6 +29,6 @@ span {
     transform: translateX(0%);
   }
   to {
-    transform: translateX(100px);
+    transform: translateX(200px);
   }
 }
