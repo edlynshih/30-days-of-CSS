@@ -6,11 +6,11 @@ body {
   background-color: lightgrey;
 }
 
-#toggle {
+input#toggle {
   display:none;
 }
 
-#toggle ~ label {
+input#toggle + label {
   width: 100px;
   height: 50px;
   background-color: lightgrey;
@@ -20,7 +20,7 @@ body {
   cursor: pointer;
 }
 
-#toggle ~ label::after {
+input#toggle + label::after {
   content: "";
   width: 38px;
   height: 38px;
@@ -32,22 +32,22 @@ body {
   transition: all 0.4s ease;
 }
 
-#toggle ~ label::before {
+input#toggle:checked +  label::before {
   content:"";
   border-radius: inherit;
   position: absolute;
-  background-color: navy;
+  background: linear-gradient(330deg, navy 0%, rgba(50, 91, 172, 0.84) 50%, lightblue 100%);
   width: 100px;
   height: 50px;
   transition: all 0.4s ease;
   opacity: 0;
 }
 
-input:checked ~ label::before{
+input#toggle:checked + label::before{
   opacity: 1;
 }
 
-input:checked ~ label::after{
+input#toggle:checked + label::after{
   transform: translateX(120%);
-  background-color: whitesmoke;
+  background-color: rgba(255, 255, 255, 0.858);
 }
