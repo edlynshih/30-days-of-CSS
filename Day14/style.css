@@ -17,4 +17,16 @@ body {
   position: relative;
   border-radius: 1.5em;
   box-shadow: -2px -1px 3px 2px white;
+  cursor: pointer;
+}
+
+#toggle ~ label::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  top: 0.3em;
+  left: 0.3em;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
 }
