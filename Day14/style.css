@@ -16,17 +16,38 @@ body {
   background-color: lightgrey;
   position: relative;
   border-radius: 1.5em;
-  box-shadow: -2px -1px 3px 2px white;
+  box-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.619), 0px -1px 3px 2px rgba(255, 255, 255, 0.565);
   cursor: pointer;
 }
 
 #toggle ~ label::after {
   content: "";
-  width: 40px;
-  height: 40px;
-  top: 0.3em;
-  left: 0.3em;
-  background-color: white;
+  width: 38px;
+  height: 38px;
+  top: 0.35em;
+  left: 0.5em;
+  background-color: darkgrey;
   border-radius: 50%;
   position: absolute;
+  transition: all 0.4s ease;
+}
+
+#toggle ~ label::before {
+  content:"";
+  border-radius: inherit;
+  position: absolute;
+  background-color: navy;
+  width: 100px;
+  height: 50px;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+
+input:checked ~ label::before{
+  opacity: 1;
+}
+
+input:checked ~ label::after{
+  transform: translateX(120%);
+  background-color: whitesmoke;
 }
