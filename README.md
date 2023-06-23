@@ -49,6 +49,10 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 <img alt="day12" title="day12" src="./Day12/Day12.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day12" target="_blank">Click here to view my code.</a>
 
+## Day13 - Loading Animation
+<img alt="day13" title="day13" src="./Day13/Day13.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day13" target="_blank">Click here to view my code.</a>
+
 ## Day14 - Toggle Switch
 <img alt="day14" title="day14" src="./Day14/Day14.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day14" target="_blank">Click here to view my code.</a>
