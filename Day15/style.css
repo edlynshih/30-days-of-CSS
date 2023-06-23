@@ -7,5 +7,19 @@
   background-color: black;
   color: white;
   padding: 1em;
+  transform: translateY(30px);
+  opacity: 0;
+  animation: fade 4s linear forwards;
 }
 
+@keyframes fade {
+  10% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
