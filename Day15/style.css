@@ -5,8 +5,8 @@
   font-family: sans-serif;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.833);
-  color: white;
-  padding: 10px 25px;
+  color: lightblue;
+  padding: 10px 30px;
   transform: translateY(50px);
   opacity: 0;
   animation: fade 4s linear forwards;
@@ -18,7 +18,8 @@
   bottom: 5px;
   height: 3px;
   width: calc(100% - 10px);
-  background-color: lightblue;
+  background-image: linear-gradient(to right, whitesmoke, lightblue);
+  animation: run 3.1s linear;
 }
 
 @keyframes fade {
@@ -29,5 +30,11 @@
   90% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes run {
+  from {
+    width: 0;
   }
 }
