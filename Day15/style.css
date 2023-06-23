@@ -4,10 +4,10 @@
   position: absolute;
   font-family: sans-serif;
   border-radius: 4px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.833);
   color: white;
-  padding: 1em;
-  transform: translateY(30px);
+  padding: 10px 25px;
+  transform: translateY(50px);
   opacity: 0;
   animation: fade 4s linear forwards;
 }
@@ -15,7 +15,6 @@
 @keyframes fade {
   10% {
     opacity: 1;
-    visibility: visible;
     transform: translateY(0);
   }
   90% {
