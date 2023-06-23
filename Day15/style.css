@@ -1,0 +1,11 @@
+.notification {
+  bottom: 50px;
+  left: 50px;
+  position: absolute;
+  font-family: sans-serif;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
