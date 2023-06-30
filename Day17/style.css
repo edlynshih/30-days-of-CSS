@@ -1,7 +1,8 @@
-#all-dots {
-  position: absolute;
-  width: 100px;
-  height: 40px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #all-dots div {
