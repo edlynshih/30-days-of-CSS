@@ -64,3 +64,7 @@ Challenge to create 30 mini projects using HTML and CSS in 30 days! 🤸🏻‍�
 ## Day16 - Link Hover Effect
 <img alt="day16" title="day16" src="./Day16/Day16.gif" width="500px">
 <a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day16" target="_blank">Click here to view my code.</a>
+
+## Day17 - Running Dots Loading Effect
+<img alt="day17" title="day17" src="./Day17/Day17.gif" width="500px">
+<a href="https://github.com/edlynshih/30-days-of-CSS/blob/main/Day17" target="_blank">Click here to view my code.</a>
