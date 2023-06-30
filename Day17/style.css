@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-color: black;
 }
 
 #all-dots {
@@ -11,7 +12,7 @@ body {
 }
 
 #all-dots div {
-  background: navy;
+  background: lightblue;
   width: 50px;
   height: 50px;
   border-radius: 50%;
