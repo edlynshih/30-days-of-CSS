@@ -7,9 +7,7 @@ body {
 
 #all-dots {
   display: inline-flex;
-  width: 100px;
-  height: 40px;
-  position: absolute;
+  position: relative;
 }
 
 #all-dots div {
@@ -20,29 +18,29 @@ body {
   position: absolute;
 }
 
-#d1 {
+.d1 {
   animation: run 2s linear infinite;
-  animation-delay: 1s;
 }
 
-#d2 {
-  animation: run 2s linear infinite;
-  animation-delay: 2s;
+.d2 {
+  animation: run 2s linear infinite 0.4s;
 }
 
-#d3 {
-  animation: run 2s linear infinite;
-  animation-delay: 3s;
+.d3 {
+  animation: run 2s linear infinite 0.8s;
 }
 
-#d4 {
-  animation: run 2s linear infinite;
-  animation-delay: 4s;
+.d4 {
+  animation: run 2s linear infinite 1.2s;
+}
+
+.d5 {
+  animation: run 2s linear infinite 1.6s;
 }
 
 @keyframes run {
   0% {
-    left: 100px;
+    left: 200px;
     top: 0;
   }
   80% {
@@ -51,7 +49,7 @@ body {
   }
   85% {
     left: 0;
-    top: -20px;
+    top: -50px;
     width: 50px;
     height: 50px;
   }
@@ -60,13 +58,13 @@ body {
     height: 45px;
   }
   95% {
-    left: 100px;
-    top: -20px;
+    left: 200px;
+    top: -50px;
     width: 50px;
     height: 50px;
   }
   100% {
-    left: 100px;
+    left: 200px;
     top: 0;
   }
 }
